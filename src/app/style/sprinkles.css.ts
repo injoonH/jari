@@ -22,6 +22,7 @@ const colorProperties = defineProperties({
     default: {},
     hover: { selector: "&:hover" },
     hasChecked: { selector: "&:has(:checked)" },
+    hoverHasChecked: { selector: "&:hover:has(:checked)" },
   },
   defaultCondition: "default",
   properties: {
