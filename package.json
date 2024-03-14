@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.14.1",
+    "@vanilla-extract/sprinkles": "^1.6.1",
     "@vercel/speed-insights": "^1.0.2",
     "next": "14.0.4",
     "react": "^18",
@@ -21,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vanilla-extract/next-plugin": "^2.3.7",
     "autoprefixer": "^10.0.1",
     "commitlint": "^19.1.0",
     "commitlint-config-gitmoji": "^2.3.1",
