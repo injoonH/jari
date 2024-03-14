@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@/app/style/global.css";
 
 export const metadata: Metadata = {
   title: "Jari",
@@ -12,7 +10,7 @@ export const metadata: Metadata = {
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <html lang="en">
-    <body className={inter.className}>
+    <body>
       {children}
       <SpeedInsights />
     </body>
