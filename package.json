@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "cd ../.. && husky install src/web/.husky"
+    "prepare": "husky"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.14.1",
