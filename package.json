@@ -1,0 +1,39 @@
+{
+  "name": "jari",
+  "version": "0.1.0",
+  "private": true,
+  "description": "KAIST Unified Reservation Service (URS) with extra convenience features",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "prepare": "husky",
+    "start": "next start"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "package.json": "sort-package-json"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "commitlint": "^19.3.0",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "sort-package-json": "^2.10.0",
+    "typescript": "^5"
+  }
+}
