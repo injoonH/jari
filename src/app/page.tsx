@@ -1,3 +1,5 @@
+import { signOut } from '@/actions/auth'
+
 const Home: React.FC = () => {
   return (
     <main>
@@ -5,6 +7,9 @@ const Home: React.FC = () => {
         Jari, KAIST Unified Reservation Service (URS) with extra convenience
         features
       </p>
+      <form action={signOut}>
+        <button type="submit">Sign Out</button>
+      </form>
     </main>
   )
 }
