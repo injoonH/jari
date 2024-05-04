@@ -3,6 +3,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 
 import { pretendard } from '@/ui/styles/fonts'
+import '@/ui/styles/index.css'
 
 export const metadata: Metadata = {
   title: 'Jari',
