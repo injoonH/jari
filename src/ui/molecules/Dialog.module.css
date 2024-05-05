@@ -4,7 +4,7 @@
     0 8px 16px 0 var(--clr-gray-opacity-100);
   border: none;
   border-radius: 2rem;
-  width: 100%;
+  width: min(100%, calc(100vw - 4.8rem));
   max-width: 48rem;
   padding: 0;
 
