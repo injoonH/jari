@@ -8,7 +8,7 @@ import { match } from 'ts-pattern'
 
 import { signIn } from '@/actions/auth'
 import { useDialog } from '@/lib/hooks/useDialog'
-import { Button, Input, LinkButton } from '@/ui/atoms'
+import { Button, Input, LinkButton, SubmitButton } from '@/ui/atoms'
 import { Dialog } from '@/ui/molecules'
 
 import styles from './page.module.css'
@@ -68,7 +68,7 @@ const Login: React.FC = () => {
                   아이디 찾기
                 </Link>
               </div>
-              <Button text="로그인" primary />
+              <SubmitButton text="로그인" primary />
             </div>
           </form>
           {match(state)
