@@ -1,4 +1,5 @@
 import { signOut } from '@/actions/auth'
+import { SubmitButton } from '@/ui/atoms'
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
         features
       </p>
       <form action={signOut}>
-        <button type="submit">Sign Out</button>
+        <SubmitButton text="로그아웃" primary />
       </form>
     </main>
   )
