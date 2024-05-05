@@ -15,14 +15,24 @@
 
   --clr-gray-50: #f9fafb;
   --clr-gray-100: #f2f4f6;
+  --clr-gray-200: #e5e8eb;
   --clr-gray-300: #d1d6db;
   --clr-gray-400: #b0b8c1;
   --clr-gray-500: #8b95a1;
+  --clr-gray-600: #6b7684;
   --clr-gray-700: #4e5968;
   --clr-gray-800: #333d4b;
+  --clr-gray-900: #191f28;
 
-  --clr-gray-opacity-100: rgba(2, 32, 71, 0.05);
-  --clr-gray-opacity-200: rgba(0, 27, 55, 0.1);
+  --clr-gray-opacity-100: rgb(2 32 71 / 0.05);
+  --clr-gray-opacity-200: rgb(0 27 55 / 0.1);
+  --clr-gray-opacity-300: rgb(0 29 58 / 0.18);
+  --clr-gray-opacity-400: rgb(0 25 54 / 0.31);
+  --clr-gray-opacity-500: rgb(3 24 50 / 0.46);
+  --clr-gray-opacity-600: rgb(0 19 43 / 0.58);
+  --clr-gray-opacity-700: rgb(3 18 40 / 0.7);
+  --clr-gray-opacity-800: rgb(0 12 30 / 0.8);
+  --clr-gray-opacity-900: rgb(2 9 19 / 0.91);
 
   --clr-red-400: #f66570;
   --clr-red-600: #e42939;
