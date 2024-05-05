@@ -19,6 +19,7 @@
     "@t3-oss/env-nextjs": "^0.10.1",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
+    "clsx": "^2.1.1",
     "jiti": "^1.21.0",
     "jose": "^5.2.4",
     "next": "14.2.3",
