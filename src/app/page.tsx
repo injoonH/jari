@@ -1,4 +1,4 @@
-import { signOut } from '@/actions/auth'
+import { signOut } from '@/lib/actions/auth'
 import { SubmitButton } from '@/ui/atoms'
 
 const Home: React.FC = () => {

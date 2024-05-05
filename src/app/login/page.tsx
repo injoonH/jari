@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { useFormState } from 'react-dom'
 import { match } from 'ts-pattern'
 
-import { signIn } from '@/actions/auth'
+import { signIn } from '@/lib/actions/auth'
 import { useDialog } from '@/lib/hooks/useDialog'
 import { Button, Input, LinkButton, SubmitButton } from '@/ui/atoms'
 import { Dialog } from '@/ui/molecules'
