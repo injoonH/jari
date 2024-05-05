@@ -3,6 +3,7 @@
   "singleQuote": true,
   "trailingComma": "all",
   "importOrder": [
+    "server-only",
     "^([@]?)([a-zA-Z]+)([/]?)(.*)$",
     "^@/(.*)$",
     "^../(.*)",

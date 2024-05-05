@@ -1,3 +1,6 @@
+import { signOut } from '@/lib/actions/auth'
+import { SubmitButton } from '@/ui/atoms'
+
 const Home: React.FC = () => {
   return (
     <main>
@@ -5,6 +8,9 @@ const Home: React.FC = () => {
         Jari, KAIST Unified Reservation Service (URS) with extra convenience
         features
       </p>
+      <form action={signOut}>
+        <SubmitButton text="로그아웃" primary />
+      </form>
     </main>
   )
 }
